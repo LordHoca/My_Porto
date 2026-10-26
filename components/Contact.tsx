@@ -123,42 +123,6 @@ export default function Contact() {
             </li>
           </ul>
 
-          <form onSubmit={onSubmit} className="rounded-2xl border border-line bg-deep p-6 sm:p-8">
-            <h3 className="font-display text-2xl tracking-tight">Kirim pesan</h3>
-
-            <label htmlFor="name" className="mt-6 block text-sm text-mute">
-              Nama
-              <input id="name" name="name" required autoComplete="name" className={field} />
-            </label>
-
-            <label htmlFor="email" className="mt-5 block text-sm text-mute">
-              Email kamu
-              <input
-                id="email"
-                name="email"
-                type="email"
-                required
-                autoComplete="email"
-                className={field}
-              />
-            </label>
-
-            <label htmlFor="message" className="mt-5 block text-sm text-mute">
-              Pesan
-              <textarea id="message" name="message" required rows={5} className={field} />
-            </label>
-
-            <button
-              type="submit"
-              className="mt-7 w-full rounded-full bg-brass px-7 py-3.5 text-sm font-semibold text-night transition hover:bg-brass-soft sm:w-auto"
-            >
-              Kirim pesan
-            </button>
-
-            <p role="status" className="mt-4 min-h-5 text-sm text-mute">
-              {sent && "Aplikasi emailmu akan terbuka. Tekan kirim di sana untuk menyelesaikan."}
-            </p>
-          </form>
         </div>
       </div>
     </section>
