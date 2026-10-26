@@ -63,7 +63,7 @@ export default function Navbar() {
         className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6"
       >
         <a href="#home" className="font-display text-xl tracking-tight">
-          {profile.name}
+          My Porto
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
