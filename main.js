@@ -10,7 +10,7 @@
 
   /* ---------------------------- CONFIG ---------------------------- */
   var CONFIG = {
-    email: 'halo@fennec.studio',
+    email: 'Visit me lordhoca1@gmail.com',
     // Ganti '#' dengan tautan sosial media Anda
     social: {
       instagram: '#',
